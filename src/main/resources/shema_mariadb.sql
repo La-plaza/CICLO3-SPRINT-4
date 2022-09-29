@@ -1,3 +1,4 @@
+-- Active: 1664462329469@@127.0.0.1@3306@laplaza2022
 INSERT INTO producers
 VALUES(
    "Rodriguez",3143987475,1,"Carrera segunda Numero 27 05","rodriguez@gmail.com","Tunja","Carlos Antonio"
