@@ -1,4 +1,4 @@
-package agrolabranza.com.misiontic2022;
+package misiontic2022.com.laplaza;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
