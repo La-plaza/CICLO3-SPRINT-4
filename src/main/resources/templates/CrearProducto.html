@@ -8,11 +8,118 @@
     <td>
         <div class="img-thumbnail" style="text-align: center"></div>
     </td>
-    <link rel="stylesheet" href="/src/main/resources/static/styles.css">
+    <link rel="stylesheet" href="src/main/resources/static/styles.css">
     <title>LA PLAZA</title>
     <link rel="icon"
         href="https://previews.123rf.com/images/tigatelu/tigatelu1612/tigatelu161200165/69076235-ilustraci%C3%B3n-de-dibujos-animados-manzana-roja-dando-pulgares-arriba.jpg"
         type="image/gif" />
+
+    <style>
+
+:root {
+    --color-0: #FAFAFA;
+    --color-1: #EFEEEE;
+    --color-2: #BCBABA;
+    --color-3: #C2FDD9;
+    --color-4: #63FE73;
+    --color-5: #78E65A;
+    --color-6: #BFFC6F;
+    --color-7: #DAE65A; 
+    --color-8: #46997F;
+    --color-9: #111111;
+    --color-10: rgba(34,34,34,0.85);
+    --container-width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*INDEX*/
+body {
+    block-size: 300%;
+    background-size: cover;
+    background-position: center center;
+    background-image: linear-gradient(to right top,  var(--color-3), var(--color-1));
+
+    }
+
+    .contenedor{
+        text-align: center;
+    }
+    div.contenedor {
+        background-color: var(--color-1);
+        margin: 0px auto;
+        width: 90vw;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 1px 10px 10px var(--color-2);
+    }
+
+    p {
+        padding: 10px;
+        background-color: rgba(130, 185, 27, 0.952);
+        border-radius: 10px;
+    }
+
+    p.morado {
+        background-color: purple;
+    }
+
+    p.verde {
+        background-color: #0cd168;
+    }
+
+    p.naranja {
+        background-color: rgba(219, 179, 46, 0.904);
+    }
+
+
+    body {
+        block-size: 200%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(https://1.bp.blogspot.com/-_OpHFmQXisU/XS81p6qJWPI/AAAAAAAAGoA/lIMpJpGBxW0TFPT1UciK6bfQtX_1bWPVwCLcBGAs/s1600/Agroneg%25C3%25B3cio.jpg);
+    }
+
+    p {
+        padding: 10px;
+        background-color: rgba(130, 185, 27, 0.952);
+        border-radius: 10px;
+  
+  
+  
+      }
+  
+      p.morado {
+        background-color: purple;
+      }
+  
+      p.verde {
+        background-color: #0cd168;
+      }
+  
+      p.naranja {
+        background-color: rgba(219, 179, 46, 0.904);
+      }
+  
+      /*propiedad background-image*/
+      div.fondoimagen {
+        max-inline-size: 500px;
+        min-block-size: 350px;
+        background-image: url(/Seccion_1.2/Semana_2/01_Imagenes/2.jfif);
+      }
+
+    </style>
 </head>
 
 <body>
@@ -20,47 +127,34 @@
     <body>
         <nav class="navbar navbar-expand-lg bg-black">
             <div class="container-fluid">
-                <a class="navbar-brand" href="/">
-                    <img alt="" width="100" height="100" class="d-inline-block align-text-center"
-                        src="\icon\agro labranza.com.gif">
-                    <h4 class="d-inline-block align-text-center" style="color:#F08080; font-family:'verdana' , serif;">
-                        LA PLAZA
-                    </h4>
-                </a>
-
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-
-                        <li class="nav-item ">
-                            <a class="nav-link " aria-current="page" href="#campo"
-                                style="color:#FFFFFF; font-family:'verdana', serif; ">Productos del campo Colombiano</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Frutas"
-                                style="color:#FFFFFF; font-family:'verdana', Times, serif;">Frutas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Verduras"
-                                style="color:#FFFFFF; font-family:'verdana', Times, serif; ">Verduras y
-                                más</a>
-                        </li>
-                    </ul>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a th:href="@{/products}" class="nav-link active" aria-current="page" href="#">Gestión
-                                    de Productos</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <form class="d-flex" role="search">
-                        <a href="/" class="btn btn-outline-success" type="submit">HOME </a>
-                    </form>
-                </div>
+              <a class="navbar-brand" href="/">
+                <img alt="" width="100" height="100" class="d-inline-block align-text-center" src="\icon\agro labranza.com.gif">
+                <h2 class="d-inline-block align-text-center" style="color:#F08080; font-family:'verdana' , serif;"> LA PLAZA
+                </h2>
+              </a>
+        
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        
+                  <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="#campo"
+                      style="color:#FFFFFF; font-family:'verdana', serif;"><h3>Productos del campo Colombiano</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Frutas" style="color:#FFFFFF; font-family:'verdana', Times, serif;"><h3>Frutas</h3></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#Verduras" style="color:#FFFFFF; font-family:'verdana', Times, serif; "><h3>Verduras y
+                      más</h3></a>
+                  </li>
+                </ul>
+        
+                <form class="d-flex" role="search">
+                  <a href="/" class="btn btn-outline-success" type="submit"><h3>HOME</h3></a>
+                </form>
+              </div>
             </div>
-        </nav>
-
+          </nav>
 
         <P> </P>
 
